@@ -3,6 +3,7 @@ from sys import argv
 script, filename = argv
 
 text = open(filename)
+# open is a command that reads text file
 
 print "Here's your file %r:" % filename
 print txt.read()
@@ -13,3 +14,6 @@ file_again = raw_input("> ")
 txt_again = open(file_again)
 
 print txt_again.read()
+
+txt.close
+txt_again.close
