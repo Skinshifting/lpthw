@@ -1,0 +1,141 @@
+Exercise 00
+
+mkdir - make directory
+cd - change directory
+ls - list contents of directory
+
+Exercise 01
+
+print "a string"
+
+Exercise 02
+
+# is a comment
+# will be ignored
+
+Exercise 03
+
++ plus
+- minus
+/ slash
+* asterisk
+% percent
+< less-than
+> greater-than
+<= less-than-equal
+>= greater-than-equal
+
+Exercise 04
+
+_ in variable names
+Floating point: numbers with decimals
+integer: number w/out decimals
+
+Exercise 05
+
+% provide the value after the string
+%s for a string
+%d for numbers or digits
+%r for raw data or representation
+
+Exercise 06
+
+' single quote
+" double quote
+
+Exercise 07
+
++ joining strings without spaces
+, joining strings with spaces
+
+Exercise 08
+
+True: boolean value/keyword no quotes needed
+False: boolean value/keyword no quotes needed
+
+Exercise 09
+
+\ used to escape characters
+\n new line
+""" triple quotes to set off several lines of text
+
+Exercise 10
+
+\\ to escape a backslash within a string
+\' to escape a single quote within a string
+\" to escape a double quote within a string
+\r carriage return within a string
+\t tab within a string
+''' alternative method of triple quotes
+
+Exercise 11
+
+raw_input() - typed input from user
+
+Exercise 12
+
+raw_input("Prompt text: ") alternative way to add a prompt for input from user
+pydoc shell command for info on python topics
+
+Exercise 13
+
+arguments - variable values provided by users
+pass - sending info from arguments to variables
+import - bringing additional features into python
+argv - the argument variables
+packing/unpacking values - to get info in and out of argv
+module - the name for the collection of extra code that can be imported into python
+
+Exercise 14
+
+prompt - a character or string that a user can specify to ask for info from the user
+
+Exercise 15 
+
+open - make a file available to python
+. - dot operator to join a function to an object
+.read - read the contents of the file
+.close - close the file so it is no longer available to python
+
+Exercise 16
+
+.close -- Closes the file. Like File->Save.. in your editor.
+.read -- Reads the contents of the file. You can assign the result to a variable.
+readline -- Reads just one line of a text file.
+.truncate -- Empties the file. Watch out if you care about the file.
+.write('stuff') -- Writes "stuff" to the file.
+w - write mode
+r - read mode
+a - append mode
+w+ - write and read
+r+ - read and write
+len() - command that returns the length of a string
+; - separate commands on a single line
+pydoc import - info on importing
+
+Exercise 17
+
+os.path - a library that adapts the file/directory address 
+to the specfic requirements of the operating system
+exists - function to determine if a file exist
+yield a true or false boolean
+
+Exercise 18
+
+def to define a custom function
+(*args) to refer to list of arguments in a function
+: and indent(4 spaces) to set block for function
+
+Exercise 19
+
+using variables within functions
+
+Exercise 20
+
+.seek() - go to a specific position within a file
+.seek(0) (bytes) goes to beginning of file
++= shortcut for incrementing a variable
+
+Exercise 21
+
+return - a value that a function makes available for use in a variable
